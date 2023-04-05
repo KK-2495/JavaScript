@@ -55,8 +55,63 @@
 // console.log(a === b)    check data and data types
 
 
-var a = 9898;
-var b = 9876;
+// var a = 9898;
+// var b = 9876;
 
-console.log(a && b)
-console.log(a || b)
+// console.log(a && b)
+// console.log(a || b)
+// console.log(a == b)
+
+// console.log(2 == "2")   //equal 
+// console.log(2 != "2")   //Not equal 
+// console.log(2 === "2")   //equal 
+// console.log(2 !== "2")   //Not equal 
+
+
+// Condition statement //
+// if else 
+// switch
+
+// if(2>1){
+//     console.log("two is greater than one")
+// } else {
+//     console.log("2 is not greater than one")
+// }
+
+
+// console.log("Welcome to RTO")
+// var userAge = 10;
+// if(userAge > 18) {
+//     console.log("You are eligible to apply DL")
+// } else if (userAge == 18){
+//     console.log("You're eligible to apply LL")
+// } else if (userAge >= 10){
+//     console.log("Go to Nursery first")
+// }
+// else {
+//     console.log("You are not eligible")
+// }                                            // if else //
+
+// Switch statement //
+
+// console.log("Welcome to RTO")
+
+var userAge = 47;
+var flagForSwitch = true
+switch (flagForSwitch) {
+    case (userAge > 18):
+        console.log("You are eligible for DL");
+        flagForSwitch = false;
+        break;
+    case (userAge < 18):
+        console.log("You are not eligible for DL");
+        flagForSwitch = false;
+        break;
+    case (userAge <= 10):
+        console.log("You are a kid");
+        flagForSwitch = false;
+        break;
+    default:
+        console.log("Invalid AGE");
+        flagForSwitch = false;
+} 
