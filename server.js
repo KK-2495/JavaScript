@@ -26,9 +26,6 @@
 // console.log(f)
 // console.log(typeof(f))
 
-
-
-
 // var a = 768778;
 // console.log(a)
 
@@ -37,7 +34,6 @@
 
 // console.log(a+b)
 // console.log(a-b)
-
 
 // var a = 76757;
 // console.log(a)
@@ -54,7 +50,6 @@
 // console.log(a == b)     check data only
 // console.log(a === b)    check data and data types
 
-
 // var a = 9898;
 // var b = 9876;
 
@@ -62,14 +57,13 @@
 // console.log(a || b)
 // console.log(a == b)
 
-// console.log(2 == "2")   //equal 
-// console.log(2 != "2")   //Not equal 
-// console.log(2 === "2")   //equal 
-// console.log(2 !== "2")   //Not equal 
-
+// console.log(2 == "2")   //equal
+// console.log(2 != "2")   //Not equal
+// console.log(2 === "2")   //equal
+// console.log(2 !== "2")   //Not equal
 
 // Condition statement //
-// if else 
+// if else
 // switch
 
 // if(2>1){
@@ -77,7 +71,6 @@
 // } else {
 //     console.log("2 is not greater than one")
 // }
-
 
 // console.log("Welcome to RTO")
 // var userAge = 10;
@@ -114,11 +107,12 @@
 //     default:
 //         console.log("Invalid AGE");
 //         flagForSwitch = false;
-// } 
+// }
 //TEST//
 // console.log("Checking the number is Odd or Even");
 
 // var num = 233;
+
 // if (num % 2 == 0){
 //     console.log("it is even");
 // }else{
@@ -143,7 +137,7 @@
 
 // if (num1 > num2 && num1 > num3){
 //     console.log("num1 is the largest number");
-// } 
+// }
 // else if (num2 > num3){
 //     console.log("num2 is the largest nmber");
 // }
@@ -152,14 +146,13 @@
 // }
 
 // console.log("Find a number is present in given range.");
-// var firstRange = 5;
-// var secondRange = 25;
 // var number = 1;
 // if(number >= 5 && number <= 25){
 //     console.log("This falls under the range");
 // }else {
 //     console.log("this does not fall under the range");
 // }
+
 // Test using switch case //
 // console.log("Checking the number is Odd or Even");
 // var num = 232;
@@ -196,10 +189,10 @@
 
 // switch (numbers) {
 //     case (num1>num2 && num1>num3):
-//         console.log("num1 is greater")    
+//         console.log("num1 is greater")
 //         break;
 //         case (num2>num3):
-//         console.log("num2 is greater")    
+//         console.log("num2 is greater")
 //         break;
 //     default:
 //         console.log("num is greater");
@@ -216,3 +209,148 @@
 //     default:
 //         console.log("This does not fall under given range");
 // }
+
+// Functions //
+// console.log("Outside Function");
+// var a = 2;
+// var b = 6;
+// function add(){
+//     console.log(a+b)
+// }
+// add();
+
+// function sub(){
+//     console.log(a-b)
+// }
+// sub();
+// function myFunction (){
+//     if(a>b){
+//         console.log("a is greater than b")
+//     }
+//     else if(a==b){
+//         console.log("a is equal to b")
+//     }
+//     else{
+//         console.log("b is greater than a")
+//     }
+// }
+// myFunction();
+
+//Sequence Parameter//
+// var a = 2;
+// var b = 4;
+
+// function sub(parameter1, parameter2) {
+//   console.log(parameter1 - parameter2);
+// }
+// sub(b, a); // sequence matters // value = 2
+// sub(a, b); // sequence matters // value = -2
+
+// function sub (para1, para2) {
+//     console.log("Substracting para1 and para2")
+//     return para1 - para2;                   // return funciton ends the statement
+// }
+// console.log(sub(a,b))
+
+//// Q. Write a function which will return a greater value ? ////
+// console.log("Below is the greater value")
+// var a = 234;
+// var b = 444;
+
+// function greatNum(){
+//     if (a>b){
+//         console.log("a is greater than b")
+//     } else {
+//         console.log("b is greater than a")
+//     }
+// }
+// greatNum();
+
+// function greatNum(p1,p2){
+//     if (a>b){
+//         return "a is greater than b";
+//     } else {
+//         return "b is greater than a";
+//     }
+// }
+// console.log(greatNum(a,b));
+
+// Q. Find the biggest number and multiply it by 2 ? //
+// var a = 55;
+// var b = 33;
+
+// function greater(p1,p2){
+//     var bigger;
+//     if (p1>p2) {
+//         bigger = a;
+//     } else {
+//         bigger = b;
+//     }
+//     bigger = bigger * 2;
+//     return bigger;
+// }
+// var ans = greater(a,b)
+// console.log(ans + " ans")
+
+/// solve questions using functions ///
+// Q. Check the number is Even or Odd ? //
+// var a = 235
+
+// function evenOdd(a){
+//     if (a % 2 == 0){
+//         return "This is Even number"
+//     } else {
+//         return "This is Odd number"
+//     }
+// }
+
+// var ans = evenOdd(a);
+// console.log(evenOdd(a));
+// Q. Find the largest of two numbers ?//
+// var a = 55;
+// var b = 88;
+
+// function biggestNum(p1, p2) {
+//     if (p1>p2){
+//         return a;
+//     } else {
+//         return b;
+//     }
+// }
+// var ans = biggestNum();
+// console.log(biggestNum());
+
+// Q. Find the largest of three numbers ?//
+
+// var a= 55;
+// var b = 444;
+// var c = 334;
+
+// function biggestNum(p1,p2,p3){
+//     if (p1>p2 && p1>p3){
+//         return "a is greater";
+//     } 
+//     else if (p2>p3){
+//         return "b is greater";
+//     } else {
+//         return "c is greater"
+//     }
+// }
+// var ans = biggestNum(a,b,c);
+// console.log(biggestNum(a,b,c));
+
+// Q. Find the number in the range of 5-25? //
+
+var num = 1;
+
+function inRange(p1){
+    if(p1>=5 && 25>=p1){
+        return "This falls under the range";
+    }
+    else{
+        return "This does not fall under the range"
+    }
+}
+
+var ans = inRange(num);
+console.log(inRange(num));
