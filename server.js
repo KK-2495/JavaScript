@@ -341,16 +341,110 @@
 
 // Q. Find the number in the range of 5-25? //
 
-var num = 1;
+// var num = 1;
 
-function inRange(p1){
-    if(p1>=5 && 25>=p1){
-        return "This falls under the range";
-    }
-    else{
-        return "This does not fall under the range"
-    }
-}
+// function inRange(p1){
+//     if(p1>=5 && 25>=p1){
+//         return "This falls under the range";
+//     }
+//     else{
+//         return "This does not fall under the range"
+//     }
+// }
 
-var ans = inRange(num);
-console.log(inRange(num));
+// var ans = inRange(num);
+// console.log(inRange(num));
+
+// ****For Loop*****
+// Q. Write a function to print numbers from 1 to 10? //
+
+// var rangeStart = 1;
+// var rangeEnd = 10;
+
+// for (start, end, steps){             **/// end decides True an false //*** */*** steps is executed after the code */
+//     code
+// }
+
+// for (var a =1; a <= 10; a++){
+//     console.log(a)
+// }
+
+// 1 - a =1; 1<10 = true => pass => prints code => a++ => 2 = end
+// 2 - a =2; 2<10 = true => pass => prints code => a++ => 3 = end
+// 3 - a =3; 3<10 = true => pass => prints code => a++ => 4 = end
+// .
+// .
+// .
+// .
+// 9 - a =9; 9<10 = true => pass => prints code => a++ => 10 = end
+// 10 - a =10; 10<10 = false => does not pass => does not prints code => a++ => 4 = end
+
+// var rangeStart = 10;
+// var rangeEnd = 100;
+// for (var a = rangeStart/2; ++a < rangeEnd/2; a++){
+//     console.log(a);
+// }
+
+// function printNumbers(start, end){
+//     for(var a = start; a <= end; a+=5){
+//         console.log(a)
+//     }
+// }
+// printNumbers(rangeStart, rangeEnd);
+
+// Q. Write a function to print even numbers from 1-100? //
+// var num1=10;
+// var num2=100;
+/////////find even numbers?////////////
+// function evenNum (start, end){
+//     for(var a=start; a<end; a++){
+//         if(a%2!=0){
+//             console.log(a)
+//         }
+//     }
+// }
+// if(num1%2==0){
+//     console.log("This ie Even")
+// } else{
+//     console.log("This is Odd")
+// }
+///////find number of counts?///////
+
+// function evenNum(start, end){
+//     var count =0;
+//     for(var a=start; a<=end; a++){
+//         // console.log(a)
+//         if(a){
+//             // console.log(a);
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+// function evenNum(start, end){
+//     var count = 0;
+//     for(var a=start; a<=end; a++){
+//         // console.log(a)
+//         if(a%2==0){
+//             // console.log(a);
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+// function evenNum(start, end){
+//     var count = 0;
+//     for(var a=start; a<=end; a++){
+//         // console.log(a)
+//         if(a%2!=0){
+//             // console.log(a);
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+// var ans = evenNum(num1, num2);
+// console.log(ans +" is total number of count");
