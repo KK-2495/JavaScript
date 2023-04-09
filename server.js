@@ -448,3 +448,100 @@
 
 // var ans = evenNum(num1, num2);
 // console.log(ans +" is total number of count");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////// Practice /////
+var x = 3;
+var y=x++;
+var z=y++;
+
+// console.log(x);
+console.log(y);
+// console.log(z);
