@@ -537,11 +537,11 @@
 
 
 
-/////// Practice /////
-var x = 3;
-var y=x++;
-var z=y++;
+/////// Test /////
+// var x = 3;
+// var y=x++;
+// var z=y++;
 
 // console.log(x);
-console.log(y);
+// console.log(y);
 // console.log(z);
