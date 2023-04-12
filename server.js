@@ -449,22 +449,50 @@
 // var ans = evenNum(num1, num2);
 // console.log(ans +" is total number of count");
 
+// ******ARRAY*******//
+// var array = [1,2,3,4,5,6,7,8,9,0,323,54,43];
+// array.push("krishnan");                      //Adds a element in the end of array//
+// array.pop();                                 //Removes a element from the end of array//
+// array.pop(); 
+// array.pop(); 
+// array.shift();                               //Removes a element from the start of an array//
+// array.shift();
+// array.unshift("krishnan", "kunal");          //Adds a element to the start of an array//
+// array.unshift("Abhishek");                   //Adds a element to the start of an array in the entry sequence//
+// console.log(array, "array");
+// console.log(array.length, " - .length is a predefined func to see the length of an ARRAY");
 
 
+var studentsList = ["abhishek", "anu", "kunal", "krishnan", "snehal", "madhuri", "mayuri"];
+// console.log(studentsList[2]);
+// console.log(studentsList.length, "is the number of the students present");
+
+// for(var i=0; i< studentsList.length; i++){
+//     console.log(studentsList[i],i);
+// }
+// for(var i=0; i< studentsList.length; i++){
+//     if(studentsList[i] == "kkk"){
+//         console.log("found  in our data");
+//     } 
+// }
+
+// var flagForSwaraj = false;
+// for(var i=0; i< studentsList.length; i++){
+//     if(studentsList[i] == "swaraj"){
+//         flagForSwaraj = true;
+//         console.log("found in our data");
+//     } 
+// }
+// if(flagForSwaraj==false){
+//     console.log("NOT found in our data");
+// }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+// for(var i=0; i<studentsList.length; i++){
+//     if(studentsList[i]=="kunal" || studentsList[i]=="swaraj"){
+//         console.log("name found in our data");
+//     }
+// }
 
 
 
