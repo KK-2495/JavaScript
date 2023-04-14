@@ -463,7 +463,7 @@
 // console.log(array.length, " - .length is a predefined func to see the length of an ARRAY");
 
 
-var studentsList = ["abhishek", "anu", "kunal", "krishnan", "snehal", "madhuri", "mayuri"];
+// var studentsList = ["abhishek", "anu", "kunal", "krishnan", "snehal", "madhuri", "mayuri"];
 // console.log(studentsList[2]);
 // console.log(studentsList.length, "is the number of the students present");
 
@@ -489,24 +489,71 @@ var studentsList = ["abhishek", "anu", "kunal", "krishnan", "snehal", "madhuri",
 
 
 // for(var i=0; i<studentsList.length; i++){
-//     if(studentsList[i]=="kunal" || studentsList[i]=="swaraj"){
+//     if(studentsList[i]=="kunal" || studentsList[i]=="krishnan"){
 //         console.log("name found in our data");
 //     }
 // }
 
+// var fruits = ["mango", "pineapple", "watermelon", "papaya"];
+// console.log(fruits[0]);
+// console.log(fruits[1]);
+// console.log(fruits[2]);
+// console.log(fruits[4]);
+// for (var i=0; i< fruits.length; i++){
+//     console.log(fruits[i]);
+// }
 
+// var flag = false;
+// var fruitName = "orange";
+// for (var i=0; i<fruits.length; i++){
+//     console.log(fruits[i]);
+//     if(fruits[i] === fruitName){
+//         flag = true;
+//     }
+// }
+// console.log(flag);
+// if(flag==false){
+//     console.log(fruitName, " not available");
+// }else{
+//     console.log(fruitName, " Stock available");
+// }
+// var arr= [343,98989];
 
+// function findMax(arr){
+//     var max = arr[0];
+//     if (arr[1]>max){
+//         max = arr[1];
+//     }
+//     return max;
+// }
+// console.log(findMax(arr));
 
+var nums = [343,324324,,64,432,6,4,3241,324,];
 
+// function findMax(nums){
+//     var max = nums[0];
+//     for(i=1; i<nums.length; i++){
+//         if(nums[i]>max){
+//             max=nums[i];
+//         }
+//     }
+//     return max;
+// }
+// **find minum nums**
+// function findMin(nums){
+//     var min = nums[0];
+//     for(i=1; i<nums.length; i++){
+//         if(nums[i]<min){
+//             min=nums[i];
+//         }
+//     }
+//     return min;
+// }
+// console.log(findMin(nums));
 
-
-
-
-
-
-
-
-
+function clickMe(){
+    alert("You've clicked Here");
+}
 
 
 
