@@ -89,25 +89,25 @@
 
 // console.log("Welcome to RTO")
 
-// var userAge = 47;
-// var flagForSwitch = true
-// switch (flagForSwitch) {
-//     case (userAge > 18):
-//         console.log("You are eligible for DL");
-//         flagForSwitch = false;
-//         break;
-//     case (userAge < 18):
-//         console.log("You are not eligible for DL");
-//         flagForSwitch = false;
-//         break;
-//     case (userAge <= 10):
-//         console.log("You are a kid");
-//         flagForSwitch = false;
-//         break;
-//     default:
-//         console.log("Invalid AGE");
-//         flagForSwitch = false;
-// }
+var userAge = 47;
+var flagForSwitch = true
+switch (flagForSwitch) {
+    case (userAge > 18):
+        console.log("You are eligible for DL");
+        flagForSwitch = false;
+        break;
+    case (userAge < 18):
+        console.log("You are not eligible for DL");
+        flagForSwitch = false;
+        break;
+    case (userAge <= 10):
+        console.log("You are a kid");
+        flagForSwitch = false;
+        break;
+    default:
+        console.log("Invalid AGE");
+        flagForSwitch = false;
+}
 //TEST//
 // console.log("Checking the number is Odd or Even");
 

@@ -11,21 +11,22 @@ var fact = 5;
 //     for(i = start; i<=end; i++){
 //         console.log(i)
 //     }
-//     return i;
+//     // return i;
 // }
-// var ans = nums(num1, num2);
-// console.log(ans);
+// // var ans = nums(num1, num2);
+// // console.log(ans);
+// nums(num1, num2);
 
 // ***Q-2 Write a program to calculate the sum of first 10 natural number.*** //
 
 // function sumNums(a,b){
-//     if(a>0 && b>0){
 //         for(i=a; i<=b; i++){
-//             sum += i;
+//             console.log(i);
 //         }
+//         sum += i;
+//         // return sum;
 //     }
-//     return sum;
-// }
+//     sumNums(num1, num2)
 // var ans = sumNums(num1, num2);
 // console.log(ans +" is the Sum of first 10 Natural numbers");
 
@@ -45,21 +46,21 @@ var fact = 5;
 //     console.log(multi*i);
 // }
 
-// function multiInt(a,b){
-//     for(i=a; i<=b; i++){
-//         console.log(i*multi)
-//     }
-//     // return i;
-// }
-// var ans = multiInt(num1, num2);
-// console.log(ans);
+function multiInt(a,b){
+    for(i=a; i<=b; i++){
+        console.log(i*multi)
+    }
+    // return i;
+}
+var ans = multiInt(num1, num2);
+console.log(ans);
 
 // ***Q-4 Write a program to find the factorial value of any number entered through the keyboard. ?*** //
 
-function factNum(a,b){
-    for(i=a; i<=b; i++){
-        fact*=i;
-}
-}
+// function factNum(a,b){
+//     for(i=a; i<=b; i++){
+//         fact*=i;
+// }
+// }
 
-factNum(num1, fact);
+// factNum(num1, fact);
