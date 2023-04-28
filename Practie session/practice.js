@@ -2,7 +2,6 @@
 // var n2 = 1;
 // var n3 = 33;
 
-
 // if(n1>n3 && n1>n3){
 //     console.log(n1, "is largest");
 // }
@@ -13,7 +12,6 @@
 //     console.log(n3, "is largest");
 // }
 
-
 // if(n1<n3 && n1<n2){
 //     console.log(n1, "is smallest");
 // }
@@ -23,7 +21,6 @@
 // else if(n3<n1 && n3<n2){
 //     console.log(n3, "is smallest");
 // }
-
 
 // var char = 'hkin';
 // // console.log(char.length);
@@ -59,7 +56,6 @@
 // }
 // var name = largeNum(num1, num2);
 // console.log(name);
-
 
 // Q.2
 
@@ -122,7 +118,6 @@
 // var ans = hello(say);
 // console.log(ans);
 
-
 // Q.6
 // var array = [1,2,3,4,5,6,7,8,9];
 // // var eg = 44;
@@ -141,8 +136,6 @@
 // }
 // var ans = sumEvenNum(array)
 // console.log(ans);
-
-
 
 // Q.7
 // var num = 77;
@@ -198,7 +191,6 @@
 //     console.log(table, "*",i,"=",  multi)
 // }
 
-
 // Q6
 // var name = "krish";
 // var revName = "";
@@ -208,7 +200,6 @@
 //     revName = revName+name[i];
 // }
 // console.log(revName);
-
 
 // Q5
 // var num = 12345;
@@ -224,11 +215,9 @@
 // var revr = 0;
 // for(;num!=0; num= Math.floor(num/10)){
 //     // remainder = num%10;
-//     revr = revr*10 + remainder; 
+//     revr = revr*10 + remainder;
 // }
 // console.log(revr);
-
-
 
 // 27th April
 
@@ -264,7 +253,6 @@
 //     }
 // }
 // console.log(min);
-
 
 // Q4
 // var array = [1,2,3,4,5,6,7,8,9];
@@ -316,7 +304,6 @@
 // ans = great(array);
 // console.log(ans);
 
-
 // Q8
 // var array1 = [2,3,4,6,7,8,9,956,43, 3];
 // var array2 = [1,3,4,6,45,7,9,97,43];
@@ -325,15 +312,15 @@
 
 // console.log(array1)
 
-    // for(var i=0; i<array1.length; i++){
-    //     for(var j=0; j<array2.length; j++){
-    //         if(array1[i]==array2[j]){
-    //             common.push(array2[j]);
-    //         }
-    //     }
-    // }
-    // console.log(common);
-    // console.log(common);
+// for(var i=0; i<array1.length; i++){
+//     for(var j=0; j<array2.length; j++){
+//         if(array1[i]==array2[j]){
+//             common.push(array2[j]);
+//         }
+//     }
+// }
+// console.log(common);
+// console.log(common);
 
 // function similar(a1,a2){
 //     for(var i=0; i<a1.length; i++){
@@ -361,7 +348,6 @@
 // var ans = reverse(array);
 // console.log(ans);
 
-
 // Q10
 // var array = [1,2,3,4,5,6,7,8,9];
 // var sum = 0;
@@ -377,7 +363,6 @@
 // var ans = cumulative(array);
 // console.log(ans);
 
-
 // Q*
 // var arr1 = [1,2,3,4,5,6,7,8,9];
 // var arr2 = [4,5,6,7,8,9,1,2,3];
@@ -391,7 +376,7 @@
 // }
 
 // for(j=0; j<arr2.length; j++){
-        
+
 // }
 // console.log(newarr);
 
@@ -422,7 +407,6 @@
 // }
 // console.log(sum);
 
-
 // Q3
 // var num =19;
 // var array = [3,5,79,45,0,-67,23,77,19,78,12];
@@ -434,12 +418,11 @@
 //         console.log("Not Found");
 //     }
 // }
-// for(i=0; i<array.length; i++){    
-//     var table = array.length; 
+// for(i=0; i<array.length; i++){
+//     var table = array.length;
 //     var multi = table*array[i];
 //     console.log(multi);
 // }
-
 
 // Q4
 // var array = [34,45,567,78,89,34,67,87,34,78,89];
@@ -452,16 +435,31 @@
 // }
 // console.log(obj)
 
-var name = 
-switch () {
-    case value:
-        
-        break;
+var array = ["mon", "Tuesday", "Wednesday", "Thursday", "Friday", "Sat", "Sun"];
 
-    default:
-        break;
+switch (array) {
+  case 1:
+    console.log(array[0]);
+    break;
+  case 1:
+    console.log(array[1]);
+    break;
+  case 2:
+    console.log(array[2]);
+    break;
+  case 3:
+    console.log(array[3]);
+    break;
+  case 4:
+    console.log(array[4]);
+    break;
+  case 5:
+    console.log(array[5]);
+    break;
+  case 6:
+    console.log(array[6]);
+    break;
+  default:
+    console.log("invalid input");
+    break;
 }
-
-
-
-
