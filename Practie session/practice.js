@@ -435,31 +435,167 @@
 // }
 // console.log(obj)
 
-var array = ["mon", "Tuesday", "Wednesday", "Thursday", "Friday", "Sat", "Sun"];
+// var array = ["mon", "Tuesday", "Wednesday", "Thursday", "Friday", "Sat", "Sun"];
+// var num = 1;
+// switch (1) {
+//   case 1:
+//     console.log(array[0]);
+//     break;
+//   case 1:
+//     console.log(array[1]);
+//     break;
+//   case 2:
+//     console.log(array[2]);
+//     break;
+//   case 3:
+//     console.log(array[3]);
+//     break;
+//   case 4:
+//     console.log(array[4]);
+//     break;
+//   case 5:
+//     console.log(array[5]);
+//     break;
+//   case 6:
+//     console.log(array[6]);
+//     break;
+//   default:
+//     console.log("invalid input");
+//     break;
+// }
 
-switch (array) {
-  case 1:
-    console.log(array[0]);
-    break;
-  case 1:
-    console.log(array[1]);
-    break;
-  case 2:
-    console.log(array[2]);
-    break;
-  case 3:
-    console.log(array[3]);
-    break;
-  case 4:
-    console.log(array[4]);
-    break;
-  case 5:
-    console.log(array[5]);
-    break;
-  case 6:
-    console.log(array[6]);
-    break;
-  default:
-    console.log("invalid input");
-    break;
-}
+
+// Q1
+// var array = [34,45,65,23,10,676,34,39];
+// var target = 68;
+// var flag = false;
+// for(i=0; i<array.length; i++){
+//   for(j=array.length-1; j>i; j--){
+//     if(array[i]+array[j] == target){
+//       flag=true;
+//       console.log(array[i], array[j]);
+//     }
+//   }
+// }
+// if(flag){
+//   return true;
+// }else{
+//   console.log("Not found");
+// }
+
+// Q2
+// var start = 5799;
+// var end = 78659;
+// var sum=0;
+
+// for(i=start; i<=end; i= i+3){
+//   sum+=i;
+// }
+// console.log(sum);
+
+// Q3
+// var number =19;
+// var array = [3,5,79,45,0,-67,23,77,19,78,,12];
+// var flag = false;
+// for(i=0; i<array.length; i++){
+//   if(array[i]==number){
+//     flag = true;
+//   }
+// }
+// if(flag){
+//   for(i=0; i<array.length; i++){
+//     console.log(i*array.length);
+//   }
+// }else{
+//   console.log("not found");
+// }
+
+// Q4
+// var array=[34,45,567,78,89,34,67,87,34,78,89];
+// var obj={};
+// for(i=0; i<array.length; i++){
+//   obj[i]= array[i];
+// }
+// console.log(obj);
+
+
+
+// Q1\
+// var array=[1,2,3,4,5,6,7,8,9];
+// var sum=0;
+// for(i=0; i<array.length;i++){
+//     sum= sum+array[i];
+// }
+
+// console.log(sum);
+
+// Q2
+// var array = [1,23,3,567,87,8,78,8];
+// var max = array[0];
+
+// for(i=0; i<array.length; i++){
+//   if(array[i]>max){
+//     max=array[i];
+//   }
+// }
+// console.log(max);
+
+// Q3
+// var array = [1,23,3,567,87,8,78,8];
+// var min = array[0];
+
+// for(i=0; i<array.length; i++){
+//   if(array[i]<min){
+//     min=array[i];
+//   }
+// }
+// console.log(min);
+
+// Q4
+// var array=[1,2,3,4,5,6,7,8,9];
+// var even = [];
+// for(i=0; i<array.length; i++){
+//   if(array[i]%2==0){
+//     even.push(array[i]);
+//   }
+// }
+// console.log(even);
+
+// Q5
+// var array=[1,2,3,4,5,6,7,8,9];
+// var odd = [];
+// for(i=0; i<array.length; i++){
+//   if(array[i]%2 !=0){
+//     odd.push(array[i]);
+//   }
+// }
+// console.log(odd);
+
+// Q6
+// var num = [1,2,3,4,6,67,9];
+// var average;
+// var sum=0;
+
+// for(i=0; i<num.length; i++){
+//   // sum+=i;
+//   sum = sum + num[i];
+//   average = sum/num.length;
+// }
+// console.log(average);
+
+// Q7
+// var array = [1,3,45,5,67,89,90,45];
+// var com = 5;
+// var newarray = [];
+
+// for(i=0; i<array.length; i++){
+//   if(array[i]>com){
+//     newarray.push(array[i])
+//   }
+// }
+// console.log(newarray);
+
+// Q8
+
+
+
