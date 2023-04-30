@@ -482,6 +482,14 @@
 //   console.log("Not found");
 // }
 
+// for(var i=0; i<array.length;i++){
+//   for(var j=array.length-1; j>i; j--){
+//     if(array[i]+array[j]==target){
+//       console.log(array[i],array[j]);
+//     }
+//   }
+// }
+
 // Q2
 // var start = 5799;
 // var end = 78659;
@@ -582,11 +590,11 @@
 
 // Q7
 // var array = [1,3,45,5,67,89,90,45];
-// var com = 5;
+// var temp = 5;
 // var newarray = [];
 
 // for(i=0; i<array.length; i++){
-//   if(array[i]>com){
+//   if(array[i]>temp){
 //     newarray.push(array[i])
 //   }
 // }
@@ -700,18 +708,29 @@
 //     console.log("not found");
 // }
 
-// Q10
-var array = [2, 1, 4, 5, 3, 6, 7, 9, 8];
-var min = array[0];
-var arr = [];
 
-for (var i = 0; i < array.length; i++) {
-  for (var j = 0; j < array.length - 1; j++) {
-    if (array[i] < min) {
-      min = array[i];
-    }
-  }
-}
+//Q10ascending
+
+// var array = [10, 92, 90, 8, 55, 61, 27, 38, 1];
+// var min = a[0];
+// var b = [];
+// for(i=0; i<a.length; i++){
+//     if(a[i]<min){
+//         min = a[i];
+//     }
+// }console.log(min);
+
+// console.log(arr1[i]+arr2[j]);
+// for (var i = 0; i < array.length; i++) {
+//   for (var j = i + 1; j < array.length; j++) {
+//     if (array[i] > array[j]) {
+//       var ascend = array[i];
+//       array[i] = array[j];
+//       array[j] = ascend;
+//     }
+//   }
+// }
+// console.log(array);
 
 
 // Q11
@@ -721,17 +740,38 @@ for (var i = 0; i < array.length; i++) {
 // Q12
 
 // var num = 'krish';
-
+// var arr = '';
 // for(var i = num.length-1; i>=0; i--){
-//     console.log(num[i]);
-// }
+//   arr = arr + num[i];
+//   }
+//       console.log(arr);
 
 // var users = ['krish', 'abhishek', 'vrushab'];
-// for(var i=0; i<users.length; i++){
-//     for(var j = users[i].length-1; j>0; j--){
-//         console.log(users[j]);
-//     }
+// var arr=[];
+
+// var array1 = "krish";
+// var newarr ='';
+
+// for (var i = array1.length-1; i>=0; i--){
+//   newarr = newarr + array1[i];
 // }
+// console.log(newarr);
+// for(var i=0; i<users.length; i++){
+//     for(var j = users[i].length-1; j>=i; j--){
+//         rev = rev + users[i][j];
+//       }
+//       console.log(rev);
+//     }
+// for(var i=0; i<users.length; i++){
+//   var str = users[i];
+//   var revr = '';
+//   for(var j= str.length-1; j>=i; j--){
+//     revr = revr + str[j];
+//   }
+//   // console.log(revr);
+//   arr.push(revr);
+// }
+// console.log(arr);
 
 // Q13
 // var array = [1,2,3,4,5,6,7,8];
@@ -760,13 +800,4 @@ for (var i = 0; i < array.length; i++) {
 //     }
 // }
 
-// var a = [10,92,90,8,55,61,27,38,1];
-// var min = a[0];
-// var b = [];
-// for(i=0; i<a.length; i++){
-//     if(a[i]<min){
-//         min = a[i];
-//     }
-// }console.log(min);
 
-// console.log(arr1[i]+arr2[j]);
