@@ -708,11 +708,11 @@ var arr = [];
 for (var i = 0; i < array.length; i++) {
   for (var j = 0; j < array.length - 1; j++) {
     if (array[i] < min) {
-
+      min = array[i];
     }
   }
 }
-console.log(array);
+
 
 // Q11
 // var array =[2.2, 2,3,4.5];
