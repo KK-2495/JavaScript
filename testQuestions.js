@@ -1,27 +1,31 @@
-var arr =[1,2,3,4,5,6,7,8];
-var name = "swaraj";
+// var arr =[1,2,3,4,5,6,7,8];
+// var name = "swaraj";
 
-function ans(a,b){
-    var sum = 0;
-    for(i=0; i<=a.length; i++){
-        if(a[i]%2==0){
-            sum = sum + a[i];
-        }
+// function ans(a,b){
+//     var sum = 0;
+//     for(i=0; i<=a.length; i++){
+//         if(a[i]%2==0){
+//             sum = sum + a[i];
+//         }
         
-    }
-    console.log(`${b}`,"=", `${sum}`);
-}
-ans(arr,name);
+//     }
+//     console.log(`"${b}`,"=", `${sum}"`);
+// }
+// ans(arr,name);
 
 
-// var arr1 = [1,3,5,6,8,4];
-// var arr2 = [2,4,6,8,1,5];
+var arr1 = [1,3,5,6,8,4];
+var arr2 = [2,4,6,8,1,5];
 // for(var i=0; i<arr2.length-1; i++){
 //     var temp = arr1[i] + arr2[i+1];
 //     sum.push(temp);
 // }
 
 // console.log(sum);
+function rest(...a){
+console.log(a);
+}
+rest(...arr1,...arr2);
 
 // function restOp(...rest2){
 //     var sum = [];
@@ -30,6 +34,7 @@ ans(arr,name);
 //         for(var j=0;j<rest2[i].length-1;j++){
 //             temp=rest2[i][j] + rest2[i+1][j+1];
 //             sum.push(temp);
+//             break;
 //         }
 //     }
 //     console.log(sum);
