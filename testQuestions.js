@@ -14,18 +14,18 @@
 // ans(arr,name);
 
 
-var arr1 = [1,3,5,6,8,4];
-var arr2 = [2,4,6,8,1,5];
+// var arr1 = [1,3,5,6,8,4];
+// var arr2 = [2,4,6,8,1,5];
 // for(var i=0; i<arr2.length-1; i++){
 //     var temp = arr1[i] + arr2[i+1];
 //     sum.push(temp);
 // }
 
 // console.log(sum);
-function rest(...a){
-console.log(a);
-}
-rest(...arr1,...arr2);
+// function rest(...a){             //restOperator//
+// console.log(a);
+// }
+// rest(arr1,arr2);
 
 // function restOp(...rest2){
 //     var sum = [];
@@ -45,7 +45,7 @@ rest(...arr1,...arr2);
 
 // function sumDiv(n){
 //     var sum=0;
-//     for(var i=1;i<=n;i++){
+//     for(var i=0;i<=n;i++){
 //         if(i%3==0 || i%5==0 || i%7==0){
 //             sum+= i;
 //         }
@@ -53,7 +53,7 @@ rest(...arr1,...arr2);
 //     console.log(sum);
 // }
 
-// sumDiv(10);
+// sumDiv(7);
 
 // var mat = [[1,0,1],[0,1,0]];
 // var count=0;
@@ -71,11 +71,11 @@ rest(...arr1,...arr2);
 
 
 
-// var mat = [[1,0,1],[0,1,0]];
+// var mat = [[1,0,1,1],[0,1,0,1,1,1]];
 
 // function findMax(mat){
 //     var maxCount = 0;
-//     let maxIndex = -1;
+//     var maxIndex;
 
 //     for(var i=0;i<mat.length;i++){
 //         var count = 0;
@@ -84,18 +84,14 @@ rest(...arr1,...arr2);
 //                 count++;
 //             }
 //         }
-
 //         if(count > maxCount){
 //             maxCount = count;
 //             maxIndex = i;
 //         }
 //     }
-
 //     var empty = [];
 //     empty.push(maxIndex,maxCount);
 //     console.log(empty);
-
-
 // }
 
 // findMax(mat);
